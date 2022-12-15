@@ -2,8 +2,13 @@ body {
     background-color: white;
 }
 
+@font-face {
+    font-family: Gotham;
+    src: url(./src/GothamMedium.ttf);
+}
+
 .login_container {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: Gotham;
     width: 718px;
     height: 419px;
     background-color: white;
@@ -11,7 +16,15 @@ body {
     border-radius: 10px;
     margin-left: 550px;
     margin-top: 250px;
+    
 }
+
+.box1 {
+    width: 191px;
+    height: 43px;
+}
+
+
 
 #login {
     margin-right: 51px;
@@ -25,9 +38,10 @@ h1 {
 
 }
 
-h2 {
-    font-size: 16px;
+.h2 {
+    font-size: 16px; 
 }
+
 
 .psw_btn {
     width: 616px;
